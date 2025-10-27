@@ -67,13 +67,13 @@ python main.py --image foto.jpg
 ## 💡 Ejemplos de Uso
 
 ```bash
-# Imagen de ejemplo (astronaut de scikit-image)
+# Imagen de ejemplo incluida (gatito.png)
+python main.py --image image/gatito.png
+
+# O usar astronaut de scikit-image
 python main.py
 
 # Tu propia imagen
-python main.py --image image/gatito.png
-
-# Especificar directorio de salida personalizado
 python main.py --image foto.jpg --output analisis_foto
 
 # Múltiples imágenes (bash)

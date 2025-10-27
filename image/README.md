@@ -1,20 +1,23 @@
-# 📁 Carpeta de Imágenes de Prueba
+# 📁 Imágenes de Prueba
 
-Coloca aquí tus imágenes para analizar.
+Esta carpeta contiene imágenes de ejemplo para el análisis de compresión.
 
-## Formatos Soportados
+## 🐱 Imagen Incluida
 
-- PNG
-- JPEG/JPG
-- Otros formatos soportados por Pillow
+- **gatito.png** - Imagen de ejemplo (213x236 px, 6 KB)
 
-## Uso
+## 🎯 Uso Rápido
 
 ```bash
-python main.py --image image/tu_imagen.png
+# Analizar el gatito de ejemplo
+python main.py --image image/gatito.png
+
+# O con tu propia imagen
+python main.py --image image/tu_imagen.jpg
 ```
 
-## Nota
+## 📋 Formatos Soportados
 
-Las imágenes en esta carpeta están ignoradas por git (excepto este README).
+- PNG, JPEG/JPG, WebP
+- Cualquier formato soportado por Pillow
 

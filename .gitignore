@@ -3,10 +3,6 @@ resultados_compresion/
 resultados_*/
 results_*/
 
-# Imágenes de prueba (excepto README.md)
-image/*
-!image/README.md
-
 # Python
 __pycache__/
 *.py[cod]
